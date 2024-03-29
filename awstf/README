@@ -1,0 +1,7 @@
+The terraform scripts creates VPC, 2 public subnets (each in unique AZ), route table, attaching subnets to route table.
+//usedls
+Creates a S3 bucket
+
+Creates security gooup and attache .. Creating EC2 computing instance in each AZ with particular to created vpc and subnets.
+
+Created loab balancer, attached target groups to it . Created listerner, so tha incoming traffic form clien is allowed
