@@ -12,3 +12,8 @@ Created loab balancer, attached target groups to it . Created listerner, so tha 
 NAt Gateway is in a public subnet. private subnet ec2 Instance ->NatGateway -> Router -> Internet Gateway.
 
 Nat Gateway are specific to AZ, for Each AZ, we should have a NAT Gateway.
+
+
+--------------------------------------------
+
+Terraform uses modules to create multiple environments or WORKSPACE, over here, each environment has its own statefile.
