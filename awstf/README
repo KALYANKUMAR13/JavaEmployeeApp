@@ -5,3 +5,10 @@ Creates a S3 bucket
 Creates security gooup and attache .. Creating EC2 computing instance in each AZ with particular to created vpc and subnets.
 
 Created loab balancer, attached target groups to it . Created listerner, so tha incoming traffic form clien is allowed
+
+---------------------------------------------------------------------------------------------------------------------------
+
+
+NAt Gateway is in a public subnet. private subnet ec2 Instance ->NatGateway -> Router -> Internet Gateway.
+
+Nat Gateway are specific to AZ, for Each AZ, we should have a NAT Gateway.
